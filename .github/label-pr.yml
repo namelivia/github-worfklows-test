@@ -2,3 +2,5 @@
   labels: ["typescript"]
 - regExp: "^.*\/migrations\/.*$"
   labels: ["migration"]
+- regExp: ".*test_.*$"
+  labels: ["migration"]
