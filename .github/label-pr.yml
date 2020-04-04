@@ -1,6 +1,6 @@
-- regExp: "^.*\.tsx+$"
+- regExp: "^.*\\.tsx+$"
   labels: ["typescript"]
-- regExp: "^.*\/migrations\/.*$"
+- regExp: "^.*\\/migrations\\/.*$"
   labels: ["migration"]
 - regExp: ".*test_.*$"
   labels: ["migration"]
