@@ -1,0 +1,4 @@
+- regExp: "^.*\.tsx+$"
+  labels: ["typescript"]
+- regExp: "^.*\/migrations\/.*$"
+  labels: ["migration"]
