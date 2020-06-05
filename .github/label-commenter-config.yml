@@ -1,0 +1,7 @@
+labels:
+  - name: migration
+    labeled:
+      pr:
+        body: |
+          HEY! You've just created a migration [here is a link to Google](https://www.google.com)
+          And here some **bold text**
