@@ -1,6 +1,4 @@
 - label: "typescript"
-  reviews: 2
-- label: "migration"
   reviews: 5
-- label: "onereview"
-  reviews: 1
+- label: "migration"
+  reviews: 2
