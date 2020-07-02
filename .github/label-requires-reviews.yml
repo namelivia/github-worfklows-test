@@ -2,3 +2,5 @@
   reviews: 2
 - label: "migration"
   reviews: 5
+- label: "onereview"
+  reviews: 1
