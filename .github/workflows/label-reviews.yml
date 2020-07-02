@@ -2,10 +2,6 @@
 name: Label Reviews
 # Trigger the workflow on pull requests
 on:
-  pull_request:
-    types:
-      - labeled
-      - unlabeled
   pull_request_review:
     types:
       - submitted
@@ -20,6 +16,6 @@ jobs:
           ref: master
 
       - name: Require-reviewers
-        uses: travelperk/label-requires-reviews-action@v0.1-alpha3
+        uses: travelperk/label-requires-reviews-action@v0.1-alpha4
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
