@@ -11,4 +11,4 @@ jobs:
       - name: Labeler
         uses: docker://decathlon/pull-request-labeler-action:2.0.0
         env:
-          github_token: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
