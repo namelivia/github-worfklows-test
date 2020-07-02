@@ -21,6 +21,6 @@ jobs:
           ref: master
 
       - name: Require-reviewers
-        uses: travelperk/label-requires-reviews-action@v0.1-alpha2
+        uses: travelperk/label-requires-reviews-action@v0.1-alpha3
         with:
           github_token: ${{ secrets.PAT }}
